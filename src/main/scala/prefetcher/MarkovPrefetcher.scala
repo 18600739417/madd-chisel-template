@@ -7,7 +7,7 @@ import chisel3.stage.{ChiselStage, ChiselGeneratorAnnotation}
 // TODO: update this module to implement Markov prefetching.
 class MarkovPrefetcher extends Module {
   val io = IO(new MarkovPrefetcherIO)
-
+  
   // Implement your Markov prefetcher logic here
 
   io.prefetch := DontCare
